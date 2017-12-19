@@ -1,5 +1,171 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
+
 body {
+  font-family: 'Open Sans', sans-serif;
+  /*color: #6E060A;*/
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+h1 {
+  margin: 1rem 0 .8rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #292b2c;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #292b2c;
+}
+
+p {
+  font-size: .95rem;
+  margin-bottom: .4rem;
+}
+
+ul {
+  font-size: .9rem;
+  color: gray;
+  list-style: none; /* get rid of bullets to be replaced with li:before rule */
+  padding-left: 1rem;
+}
+
+li:before { /* set bullets to plus signs */
+    content: "+";
+    margin-right: 4px;
+}
+
+img {
+  margin-bottom: 1rem;
+}
+
+.img-app {
+  border: 1px solid #ddd;
+}
+
+hr {
+  margin-top: 1.5rem;
+  border-top: 2px solid #ddd;
+}
+
+a {
+  color: #07A9DB;
+}
+
+a:hover {
+  color: #0782A8;
+}
+
+a:focus {
+  /*color: #8C2327;*/
+}
+
+.btn-light {
+  background-color: white;
+  border: 1px #ccc solid;
+}
+
+.btn-light:hover {
+  border-color: #333333;
+}
+
+.jumbotron {
+  background-color: black;
+  /*background-image: url("../img/subtle_bg_02.png");*/
+	background-repeat: repeat;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1.3rem;
+}
+
+.jumbotron h1 {
+  margin: 0 0 .5rem 0;
+  font-size: 2.3rem;
+  color: white;
+}
+
+.jumbotron h2 {
+  font-size: 1.75rem;
+  color: white;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+}
+
+.jumbo-stripe {
+  background-color: #07A9DB;
+  padding: .25rem 0 .35rem 0;
+}
+
+.jumbotron p {
+  margin-top: .5rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.jumbotron a {
+  margin: 0 .5rem 0 .5rem;
+  color: gray;
+  transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+
+.jumbotron a:hover {
+  color: white;
+}
+
+.footer-copyright {
+  margin: 4rem 0 2rem 0;
+  color: gray;
+}
+
+.row-app {
+  margin-bottom: 2rem;
+}
+
+.col-app {
+  margin-bottom: 2rem;
+}
+
+.btn-web-app {
+  padding: .5rem .75rem;
+  font-size: .9rem;
+  border-radius: .2rem;
+}
+
+.contact a {
+  color: #373a3c;
+}
+
+.contact-icons {
+  margin-top: .7rem;
+}
+
+.contact-icons a {
+  margin-right: 1rem;
+  color: gray;
+  transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+
+.contact-icons a:hover {
+  color: #373a3c;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: #373a3c;
 }
