@@ -8,6 +8,11 @@ import { Contact } from './Contact';
 import { Footer } from './Footer';
 
 import imgStoryplan from '../img/app_storyplan.jpg';
+import imgSketchbook from '../img/app_sketchbook.jpg';
+import imgSteamNavigator from '../img/app_steam_navigator.jpg';
+import imgGoogleNews from '../img/app_google_news.jpg';
+import imgPostIt from '../img/app_post_it.jpg';
+import imgSimpleBlog from '../img/app_simple_blog.jpg';
 
 const webApps = [
   {
@@ -23,9 +28,69 @@ const webApps = [
       "Created front end with Rails templates and partials, then styled with Bootstrap (HTML, CSS, ERB)",
       "Wrote test suite with RSpec"
     ],
-    liveUrl: "https://rails-storyplan.herokuapp.com/",
+    url: "https://rails-storyplan.herokuapp.com/",
     github: "https://github.com/MitulMistry/rails-storyplan"
-  }
+  },
+  {
+    title: "Sketchbook",
+    image: imgSketchbook,
+    description: "A Rails/AngularJS app for artists to curate and share their sketches",
+    bullets: [
+      "Created single-page AngularJS front end and integrated with Rails",
+      "Developed a Rails JSON API back end using ActiveModel Serializers",
+      "Used Bower to manage front end dependencies",
+      "Implemented Paperclip gem and integrated with AngularJS to handle image uploading, along with S3 for production",
+      "Set up filtering based on associated tags for images"
+    ],
+    url: "https://angular-sketchbook.herokuapp.com/",
+    github: "https://github.com/MitulMistry/sketchbook"
+  },
+  {
+    title: "Steam Navigator",
+    image: imgSteamNavigator,
+    description: "A front end AngularJS web application for viewing the Steam Store",
+    bullets: [
+      "Designed and developed a responsive single-page AngularJS front end",
+      "Developed a Node + Express back end proxy to interact with external API to circumvent cross-origin (CORS) denial",
+      "Implemented AngularJS Material for layout and styling"
+    ],
+    url: "https://steam-navigator.herokuapp.com/",
+    github: "https://github.com/MitulMistry/steam-navigator"
+  },
+  {
+    title: "React Google News",
+    image: imgGoogleNews,
+    description: "A React front end application using the Google News API",
+    bullets: [
+      "Designed and developed a responsive single-page React front end",
+      "Developed a Node + Express back end to interact with external API",
+      "Used Webpack to build project"
+    ],
+    url: "https://react-google-news.herokuapp.com/",
+    github: "https://github.com/MitulMistry/react-google-news"
+  },
+  {
+    title: "Post-It",
+    image: imgPostIt,
+    description: "A Rails/jQuery app to make and sort notes",
+    bullets: [
+      "Integrated jQuery into Rails templates via the asset pipeline",
+      "Leveraged jQuery to make AJAX calls to load, create, and modify notes without page reloads",
+      "Set up a Rails JSON API to communicate with jQuery via AJAX"
+    ],
+    url: "https://rails-post-it.herokuapp.com/",
+    github: "https://github.com/MitulMistry/post-it"
+  },
+  {
+    title: "Simple Blog",
+    image: imgSimpleBlog,
+    description: "A blog application built with Sinatra",
+    bullets: [
+      "Set up custom sessions and authentication using bcrypt",
+      "Incorporated ActiveRecord and set up database schema with SQLite"
+    ],
+    github: "https://github.com/MitulMistry/sinatra-simple-blog"
+  },
 ];
 
 const webDesigns = [

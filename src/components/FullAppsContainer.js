@@ -12,7 +12,7 @@ export class FullAppsContainer extends React.Component {
             image={app.image}
             description={app.description}
             bullets={app.bullets}
-            liveUrl={app.liveUrl}
+            url={app.url}
             github={app.github}
           />
         )}
