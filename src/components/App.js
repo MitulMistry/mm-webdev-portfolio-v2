@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 import { Header } from './Header';
 import { TechnicalSkills } from './TechnicalSkills';
 import { FullAppsContainer } from './FullAppsContainer';
-// import { HalfAppsContainer } from './HalfAppsContainer';
+import { HalfAppsContainer } from './HalfAppsContainer';
 import { Contact } from './Contact';
 import { Footer } from './Footer';
 
@@ -13,6 +13,9 @@ import imgSteamNavigator from '../img/app_steam_navigator.jpg';
 import imgGoogleNews from '../img/app_google_news.jpg';
 import imgPostIt from '../img/app_post_it.jpg';
 import imgSimpleBlog from '../img/app_simple_blog.jpg';
+import imgFrazetta from '../img/app_frazetta.jpg';
+import imgArtSmart from '../img/app_artsmart.jpg';
+import imgCmd from '../img/app_cmd.jpg';
 
 const webApps = [
   {
@@ -90,11 +93,24 @@ const webApps = [
       "Incorporated ActiveRecord and set up database schema with SQLite"
     ],
     github: "https://github.com/MitulMistry/sinatra-simple-blog"
-  },
+  }
 ];
 
 const webDesigns = [
-
+  {
+    title: "Frank Frazetta",
+    image: imgFrazetta,
+    description: "Front page for fantasy illustration website",
+    url: "https://mitulmistry.github.io/frazetta-front-page/",
+    github: "https://mitulmistry.github.io/frazetta-front-page/"
+  },
+  {
+    title: "ArtSmart",
+    image: imgArtSmart,
+    description: "Front page for art history website",
+    url: "https://mitulmistry.github.io/artsmart-front-page/",
+    github: "https://github.com/MitulMistry/artsmart-front-page"
+  }
 ];
 
 const otherApps = [
@@ -109,10 +125,18 @@ class App extends Component {
 
         <Container>
           <TechnicalSkills />
-          {/* array of web applications (FullApps) - grid? FullAppsContainer */}
+
+          <hr />
+          <h1>Web Applications</h1>
           <FullAppsContainer apps={webApps} />
-          {/* array of web designs (HalfApps) - grid HalfAppsContainer */}
+
+          <hr />
+          <h1>Web Design</h1>
+          <HalfAppsContainer apps={webDesigns} />
+
           {/* array of other applications (FullApps) */}
+
+          <hr />
           <Contact />
           <Footer />
         </Container>
