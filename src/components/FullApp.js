@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 
 export class FullApp extends React.Component {
   render() {
@@ -17,8 +17,8 @@ export class FullApp extends React.Component {
             )}
           </ul>
           <p>
-            <a href={this.props.url} target="_blank" class="btn btn-web-app btn-light" role="button"><span class="fa fa-rocket" aria-hidden="true"></span> Live Site</a>
-            <a href={this.props.github} target="_blank" class="btn btn-web-app btn-light" role="button"><span class="fa fa-github fa-lg"></span> Github</a>
+            <Button href={this.props.url} target="_blank" className="btn-web-app btn-light"><span className="fa fa-rocket" aria-hidden="true"></span> Live Site</Button>
+            <Button href={this.props.github} target="_blank" className="btn-web-app btn-light"><span className="fa fa-github fa-lg"></span> Github</Button>
           </p>
         </Col>
       </Row>

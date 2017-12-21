@@ -136,6 +136,7 @@ a:focus {
 }
 
 .btn-web-app {
+  margin-right: .3rem;
   padding: .5rem .75rem;
   font-size: .9rem;
   border-radius: .2rem;
