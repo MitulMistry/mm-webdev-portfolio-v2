@@ -114,7 +114,16 @@ const webDesigns = [
 ];
 
 const otherApps = [
-
+  {
+    title: "Steam Top Sellers CLI Gem",
+    image: imgCmd,
+    description: "A Ruby command line application to get the current top selling games on Steam",
+    bullets: [
+      "Built with object-oriented programming",
+      "Queried Steam API and parsed JSON response into custom classes"
+    ],
+    github: "https://github.com/MitulMistry/steam-top-sellers-cli-gem"
+  }
 ];
 
 class App extends Component {
@@ -134,7 +143,9 @@ class App extends Component {
           <h1>Web Design</h1>
           <HalfAppsContainer apps={webDesigns} />
 
-          {/* array of other applications (FullApps) */}
+          <hr />
+          <h1>Other Applications</h1>
+          <FullAppsContainer apps={otherApps} />
 
           <hr />
           <Contact />
