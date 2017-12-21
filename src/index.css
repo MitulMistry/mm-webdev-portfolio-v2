@@ -78,7 +78,7 @@ a:focus {
 
 .jumbotron {
   background-color: black;
-  /*background-image: url("../img/subtle_bg_02.png");*/
+  background-image: url("./img/subtle_bg_02.png");
 	background-repeat: repeat;
   border-radius: 0;
   padding-left: 0;
