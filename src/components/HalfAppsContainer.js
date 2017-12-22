@@ -4,20 +4,33 @@ import { HalfApp } from './HalfApp';
 
 export class HalfAppsContainer extends React.Component {
   render() {
+    var apps = this.props.apps;
+    var total = [];
+    var row = [];
+    const numberOfColumns = 2;
+
+    apps.map(function(app, i) {
+      row.push(
+        <HalfApp
+          key={i}
+          title={app.title}
+          image={app.image}
+          description={app.description}
+          url={app.url}
+          github={app.github}
+        />
+      );
+
+      if (row.length === numberOfColumns || i === apps.length - 1) {
+        total.push(<Row>{row}</Row>);
+        row = []; //empty the row
+      }
+    });
+
+
     return (
       <div>
-        {this.props.apps.map((app, i) =>
-          //if i % 2 === 1) <Row>
-          <HalfApp
-            key={i}
-            title={app.title}
-            image={app.image}
-            description={app.description}
-            url={app.url}
-            github={app.github}
-          />
-          //if (i % 2 === 0 || i === this.props.apps.length) </Row>
-        )}
+        {total}
       </div>
     );
   }
