@@ -6,7 +6,7 @@ export class Footer extends React.Component {
 
     return (
       <footer className="footer-copyright text-sm-center">
-        <p><a href="https://github.com/MitulMistry/mm-webdev-portfolio-v2" target="_blank">Github repo for this site</a></p>
+        <p><a href="https://github.com/MitulMistry/mm-webdev-portfolio-v2" target="_blank" rel="noopener noreferrer">Github repo for this site</a></p>
         <p>&copy; Mitul Mistry { thisYear }</p>
       </footer>
     );
