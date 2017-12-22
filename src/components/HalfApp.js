@@ -5,7 +5,7 @@ export class HalfApp extends React.Component {
   render() {
     return (
       <Col md="6" className="col-app">
-        <a href={this.props.url || this.props.github} target="_blank" rel="noopener noreferrer"><img src={this.props.image} class="img-fluid img-rounded img-app" alt="App screenshot" /></a>
+        <a href={this.props.url || this.props.github} target="_blank" rel="noopener noreferrer"><img src={this.props.image} className="img-fluid img-rounded img-app" alt="App screenshot" /></a>
         <h2>{this.props.title}</h2>
         <p>{this.props.description}</p>
         <p>

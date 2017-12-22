@@ -6,14 +6,14 @@ export class FullApp extends React.Component {
     return (
       <Row className="row-app">
         <Col md="4">
-          <a href={this.props.url || this.props.github} target="_blank" rel="noopener noreferrer"><img src={this.props.image} class="img-fluid img-rounded img-app" alt="App screenshot" /></a>
+          <a href={this.props.url || this.props.github} target="_blank" rel="noopener noreferrer"><img src={this.props.image} className="img-fluid img-rounded img-app" alt="App screenshot" /></a>
         </Col>
         <Col md="8">
           <h2>{this.props.title}</h2>
           <p>{this.props.description}</p>
           <ul>
             {this.props.bullets.map((bullet, i) =>
-              <li>{bullet}</li>
+              <li key={i}>{bullet}</li>
             )}
           </ul>
           <p>

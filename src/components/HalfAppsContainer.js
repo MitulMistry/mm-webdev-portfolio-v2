@@ -22,7 +22,7 @@ export class HalfAppsContainer extends React.Component {
       );
 
       if (row.length === numberOfColumns || i === apps.length - 1) {
-        total.push(<Row>{row}</Row>);
+        total.push(<Row key={total.length}>{row}</Row>);
         row = []; //empty the row
       }
     });
