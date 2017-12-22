@@ -6,7 +6,7 @@ export class FullApp extends React.Component {
     return (
       <Row className="row-app">
         <Col md="4">
-          <a href={this.props.url || this.props.github} target="_blank"><img src={this.props.image} class="img-fluid img-rounded img-app" /></a>
+          <a href={this.props.url || this.props.github} target="_blank"><img src={this.props.image} class="img-fluid img-rounded img-app" alt="App screenshot" /></a>
         </Col>
         <Col md="8">
           <h2>{this.props.title}</h2>
