@@ -131,6 +131,10 @@ a:focus {
   margin-bottom: 2rem;
 }
 
+.row-app .col {
+  flex-basis: auto; /*Fix columns inside a .row-app so they stack vertically at breakpoints*/
+}
+
 .col-app {
   margin-bottom: 2rem;
 }
