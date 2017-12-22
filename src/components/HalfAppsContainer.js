@@ -9,7 +9,7 @@ export class HalfAppsContainer extends React.Component {
     var row = [];
     const numberOfColumns = 2;
 
-    apps.map(function(app, i) {
+    apps.forEach(function(app, i) {
       row.push(
         <HalfApp
           key={i}
@@ -26,7 +26,6 @@ export class HalfAppsContainer extends React.Component {
         row = []; //empty the row
       }
     });
-
 
     return (
       <div>
