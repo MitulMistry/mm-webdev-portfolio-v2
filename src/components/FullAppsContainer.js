@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { FullApp } from './FullApp';
 
 export class FullAppsContainer extends React.Component {
@@ -20,3 +21,7 @@ export class FullAppsContainer extends React.Component {
     );
   }
 }
+
+FullAppsContainer.propTypes = {
+  apps: PropTypes.arrayOf(PropTypes.object).isRequired
+};

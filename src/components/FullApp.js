@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Row, Col, Button } from 'reactstrap';
 
 export class FullApp extends React.Component {
@@ -29,3 +30,12 @@ export class FullApp extends React.Component {
     );
   }
 }
+
+FullApp.propTypes = {
+  url: PropTypes.string,
+  github: PropTypes.string,
+  image: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  bullets: PropTypes.arrayOf(PropTypes.string)
+};

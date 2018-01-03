@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Row } from 'reactstrap';
 import { HalfApp } from './HalfApp';
 
@@ -34,3 +35,7 @@ export class HalfAppsContainer extends React.Component {
     );
   }
 }
+
+HalfAppsContainer.propTypes = {
+  apps: PropTypes.arrayOf(PropTypes.object)
+};

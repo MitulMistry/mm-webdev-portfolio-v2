@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Col, Button } from 'reactstrap';
 
 export class HalfApp extends React.Component {
@@ -20,3 +21,11 @@ export class HalfApp extends React.Component {
     );
   }
 }
+
+HalfApp.propTypes = {
+  url: PropTypes.string,
+  github: PropTypes.string,
+  image: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string
+};
