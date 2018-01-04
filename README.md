@@ -22,8 +22,10 @@ Node Package Manager (NPM) is used for dependencies. To install the application 
 
 ## Commands
 `npm run start` - Runs the app in development mode.
+
 `npm run build` - Builds the app for production to the build folder.
+
 `npm run eject` - A one time operation that will remove the Create React App single build dependency from the project.
 
 ## License
-This project is open source under the terms of the [MIT License][mit].
+This project is open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
