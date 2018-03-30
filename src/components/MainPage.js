@@ -11,6 +11,7 @@ import imgStoryplan from '../img/app_storyplan.jpg';
 import imgSketchbook from '../img/app_sketchbook.jpg';
 import imgSteamNavigator from '../img/app_steam_navigator.jpg';
 import imgGoogleNews from '../img/app_google_news.jpg';
+import imgTheValley from '../img/app_the_valley.jpg';
 import imgPostIt from '../img/app_post_it.jpg';
 import imgSimpleBlog from '../img/app_simple_blog.jpg';
 import imgFrazetta from '../img/app_frazetta.jpg';
@@ -71,6 +72,18 @@ const webApps = [
     ],
     url: "https://react-google-news.herokuapp.com/",
     github: "https://github.com/MitulMistry/react-google-news"
+  },
+  {
+    title: "The Valley",
+    image: imgTheValley,
+    description: "An HTML5 text adventure system using JavaScript and Phaser CE",
+    bullets: [
+      "Implemented a text display system using HTML canvas via Phaser",
+      "Developed a system for non-linear storytelling and branching user choices",
+      "Designed a story production pipeline for CSV to JSON files which are then parsed in game"
+    ],
+    url: "https://the-valley.herokuapp.com/",
+    github: "https://github.com/MitulMistry/the-valley"
   },
   {
     title: "Post-It",
