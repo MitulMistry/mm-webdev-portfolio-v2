@@ -1,9 +1,8 @@
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
 body {
   font-family: 'Open Sans', sans-serif;
-  /*color: #6E060A;*/
 }
 
 @media (min-width: 1200px) {
@@ -86,13 +85,15 @@ a:focus {
 
 .jumbotron h1 {
   text-transform: uppercase;
-  margin: 0 0 .5rem 0;
+  letter-spacing: 4px;
+  margin: 0 0 .1rem 0;
   font-size: 2.75rem;
   color: white;
 }
 
 .jumbotron h2 {
   font-size: 1.75rem;
+  font-weight: 400;
   color: white;
   margin: 0;
 }
