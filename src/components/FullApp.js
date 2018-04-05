@@ -12,7 +12,7 @@ export class FullApp extends React.Component {
         <Col md="8">
           <h2>{this.props.title}</h2>
           <p>{this.props.description}</p>
-          <ul>
+          <ul className="app-bullets">
             {this.props.bullets.map((bullet, i) =>
               <li key={i}>{bullet}</li>
             )}
