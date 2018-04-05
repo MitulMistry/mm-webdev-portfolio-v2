@@ -168,7 +168,19 @@ a:focus {
   font-size: .9rem;  
 }
 
-.contact a {
+.row-top-margin {
+  margin-top: .5rem;
+}
+
+.contact .btn-light {
+  margin-bottom: .2rem;
+  width: 110px;
+}
+
+.contact p {
+  margin: 0;
+}
+/* .contact a {
   color: #373a3c;
 }
 
@@ -187,7 +199,7 @@ a:focus {
 
 .contact-icons a:hover {
   color: #373a3c;
-}
+} */
 
 footer a {
   color: gray;
