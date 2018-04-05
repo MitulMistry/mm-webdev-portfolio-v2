@@ -30,7 +30,9 @@ p {
 }
 
 .gradientHeading {
-  background-color: #3879D6;
+  margin: 2rem 0 1rem 0;
+  background: rgb(35,192,231);
+  background: linear-gradient(90deg, rgba(35,192,231,1) 0%, rgba(40,111,213,1) 100%);
 }
 
 .gradientHeading h1 {
