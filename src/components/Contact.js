@@ -3,8 +3,7 @@ import React from 'react';
 export class Contact extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Contact</h1>
+      <div>        
         <p className="contact"><a href="mailto:MitulMistryDev@gmail.com">MitulMistryDev@gmail.com</a></p>
         <p className="contact-icons">
           <a href="https://github.com/MitulMistry" target="_blank" rel="noopener noreferrer"><span className="fa fa-github fa-lg"></span></a>

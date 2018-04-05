@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import { Header } from './Header';
+import { GradientHeading } from './GradientHeading';
 import { TechnicalSkills } from './TechnicalSkills';
 import { FullAppsContainer } from './FullAppsContainer';
 import { HalfAppsContainer } from './HalfAppsContainer';
@@ -16,22 +17,21 @@ export class MainPage extends React.Component {
         <Header />
 
         <Container>
+          <GradientHeading text="Technical Skills" />
           <TechnicalSkills />
 
-          <hr />
-          <h1>Web Applications</h1>
+          <GradientHeading text="Web Applications" />
           <FullAppsContainer apps={webApps} />
-
-          <hr />
-          <h1>Web Design</h1>
+          
+          <GradientHeading text="Web Design" />
           <HalfAppsContainer apps={webDesigns} />
-
-          <hr />
-          <h1>Other Applications</h1>
+          
+          <GradientHeading text="Other Applications" />
           <FullAppsContainer apps={otherApps} />
 
-          <hr />
+          <GradientHeading text="Contact" />
           <Contact />
+          
           <Footer />
         </Container>
       </div>

@@ -29,6 +29,16 @@ p {
   margin-bottom: .4rem;
 }
 
+.gradientHeading {
+  background-color: #3879D6;
+}
+
+.gradientHeading h1 {
+  color: white;
+  text-transform: uppercase;
+  padding: .4rem 1rem .4rem 1rem;
+}
+
 ul {
   font-size: .9rem;
   color: gray;
