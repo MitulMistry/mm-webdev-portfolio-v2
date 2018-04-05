@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #292b2c;
+  color: #3879D6;
 }
 
 p {
@@ -61,11 +61,6 @@ img {
   border: 1px solid #ddd;
 }
 
-hr {
-  margin-top: 1.5rem;
-  border-top: 2px solid #ddd;
-}
-
 a {
   color: #07A9DB;
 }
@@ -80,11 +75,24 @@ a:focus {
 
 .btn-light {
   background-color: white;
-  border: 1px #ccc solid;
+  border: 1px #3879D6 solid;
+  border-radius: 0;
+  color: #3879D6;
 }
 
 .btn-light:hover {
-  border-color: #333333;
+  background-color: #3879D6;
+  border-color: #3879D6;
+  color: white;
+}
+
+.btn-light:focus {
+  border-width: 2px;
+}
+
+.btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
+  background-color: #639CED;
+  color: white;
 }
 
 .jumbotron {
@@ -155,10 +163,9 @@ a:focus {
 }
 
 .btn-web-app {
-  margin-right: .3rem;
-  padding: .5rem .75rem;
-  font-size: .9rem;
-  border-radius: .2rem;
+  margin-right: .5rem;
+  padding: .4rem .75rem;
+  font-size: .9rem;  
 }
 
 .contact a {
