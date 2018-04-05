@@ -31,9 +31,9 @@ export class MainPage extends React.Component {
 
           <GradientHeading text="Contact" />
           <Contact />
-          
-          <Footer />
         </Container>
+
+        <Footer />
       </div>
     );
   }

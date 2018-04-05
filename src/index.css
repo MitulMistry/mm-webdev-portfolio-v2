@@ -133,7 +133,7 @@ a:focus {
 
 .jumbo-social-bar a {
   font-size: 1.25em;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
   color: white;
   transition: color 0.1s linear;
   -o-transition: color 0.1s linear;
@@ -143,11 +143,6 @@ a:focus {
 
 .jumbo-social-bar a:hover {
   color: #2BC9ED;
-}
-
-.footer-copyright {
-  margin: 4rem 0 2rem 0;
-  color: gray;
 }
 
 .row-app {
@@ -180,31 +175,42 @@ a:focus {
 .contact p {
   margin: 0;
 }
-/* .contact a {
-  color: #373a3c;
+
+.footer-main {
+  background-image: url("./img/bg_blue_bar.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+  margin-top: 4rem;
+  padding: 1rem 1rem 4rem 1rem;
+  color: white;
 }
 
-.contact-icons {
-  margin-top: .7rem;
+.footer-main a {
+  color: white;
 }
 
-.contact-icons a {
-  margin-right: 1rem;
-  color: gray;
+.footer-main a:hover {
+  color: #07A9DB;
+}
+
+.footer-icons {
+  font-size: 1.1rem;
+  margin: .2rem 0 1.5rem 0;
+}
+
+.footer-icons a {
+  margin: 0 1rem;
+  /* color: white;
   transition: color 0.1s linear;
   -o-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
-  -webkit-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear; */
 }
 
-.contact-icons a:hover {
+/* .footer-icons a:hover {
   color: #373a3c;
 } */
 
-footer a {
-  color: gray;
-}
-
-footer a:hover {
-  color: #373a3c;
+.footer-copyright {
+  margin-bottom: 0;
 }
