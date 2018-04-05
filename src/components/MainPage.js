@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import { MainNavBar } from './MainNavBar';
 import { Header } from './Header';
 import { GradientHeading } from './GradientHeading';
 import { TechnicalSkills } from './TechnicalSkills';
@@ -14,23 +15,30 @@ export class MainPage extends React.Component {
   render() {
     return (
       <div>
+        <MainNavBar />
         <Header />
 
         <Container>
-          <GradientHeading text="Technical Skills" />
-          <TechnicalSkills />
+          <div id="about">
+            <GradientHeading text="Technical Skills" />
+            <TechnicalSkills />
+          </div>
 
-          <GradientHeading text="Web Applications" />
-          <FullAppsContainer apps={webApps} />
+          <div id="portfolio">
+            <GradientHeading text="Web Applications" />
+            <FullAppsContainer apps={webApps} />          
           
-          <GradientHeading text="Web Design" />
-          <HalfAppsContainer apps={webDesigns} />
-          
-          <GradientHeading text="Other Applications" />
-          <FullAppsContainer apps={otherApps} />
+            <GradientHeading text="Web Design" />
+            <HalfAppsContainer apps={webDesigns} />
+            
+            <GradientHeading text="Other Applications" />
+            <FullAppsContainer apps={otherApps} />
+          </div>
 
-          <GradientHeading text="Contact" />
-          <Contact />
+          <div id="contact">
+            <GradientHeading text="Contact" />
+            <Contact />
+          </div>
         </Container>
 
         <Footer />
