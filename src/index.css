@@ -33,6 +33,20 @@ p {
   border-bottom: 5px solid #3879D6;
 }
 
+/* Offsetting anchors for sticky header */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+@media (max-width: 576px) {
+  a.anchor {
+    top: -150px;
+  }
+}
+
 .gradientHeading {
   margin: 2rem 0 1rem 0;
   background: rgb(35,192,231);

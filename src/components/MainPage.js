@@ -19,26 +19,23 @@ export class MainPage extends React.Component {
         <Header />
 
         <Container>
-          <div id="about">
-            <GradientHeading text="Technical Skills" />
-            <TechnicalSkills />
-          </div>
+          <a className="anchor" id="about"></a>
+          <GradientHeading text="Technical Skills" />
+          <TechnicalSkills />
 
-          <div id="portfolio">
-            <GradientHeading text="Web Applications" />
-            <FullAppsContainer apps={webApps} />          
+          <a className="anchor" id="portfolio"></a>
+          <GradientHeading text="Web Applications" />
+          <FullAppsContainer apps={webApps} />          
+        
+          <GradientHeading text="Web Design" />
+          <HalfAppsContainer apps={webDesigns} />
           
-            <GradientHeading text="Web Design" />
-            <HalfAppsContainer apps={webDesigns} />
-            
-            <GradientHeading text="Other Applications" />
-            <FullAppsContainer apps={otherApps} />
-          </div>
+          <GradientHeading text="Other Applications" />
+          <FullAppsContainer apps={otherApps} />
 
-          <div id="contact">
-            <GradientHeading text="Contact" />
-            <Contact />
-          </div>
+          <a className="anchor" id="contact"></a>
+          <GradientHeading text="Contact" />
+          <Contact />
         </Container>
 
         <Footer />
