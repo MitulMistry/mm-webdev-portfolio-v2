@@ -33,11 +33,44 @@ p {
   border-bottom: 5px solid #3879D6;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #212529;
+  font-weight: 600;
+  padding: .3rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3879D6;
+}
+
+/* .navbar-social {
+
+} */
+
+.navbar-light .navbar-nav.navbar-social .nav-link {
+  color: #3879D6;
+  padding: .3rem .5rem;
+}
+
+.navbar-light .navbar-nav.navbar-social .nav-link:hover {
+  color: #07A9DB;
+}
+
+@media (max-width: 576px) {
+  .navbar-social {
+    visibility: hidden;
+  }
+
+  .navbar-light .navbar-nav.navbar-social .nav-link {
+    padding: 0 .5rem;
+  }
+}
+
 /* Offsetting anchors for sticky header */
 a.anchor {
   display: block;
   position: relative;
-  top: -70px;
+  top: -60px;
   visibility: hidden;
 }
 
