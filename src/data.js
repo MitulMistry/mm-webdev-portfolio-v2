@@ -115,7 +115,7 @@ export const webDesigns = [
     image: imgFrazetta,
     description: "Front page for fantasy illustration website",
     url: "https://mitulmistry.github.io/frazetta-front-page/",
-    github: "https://mitulmistry.github.io/frazetta-front-page/"
+    github: "https://github.com/MitulMistry/frazetta-front-page"
   },
   {
     title: "ArtSmart",
