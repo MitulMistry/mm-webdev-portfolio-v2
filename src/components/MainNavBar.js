@@ -4,8 +4,7 @@ import { Container, Navbar, Nav, NavItem, NavLink } from 'reactstrap';
 export class MainNavBar extends React.Component {
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="sm">
+        <Navbar id="main-navbar" className="sticky-top" color="light" light expand="sm">
           <Container>
             <Nav navbar>
               <NavItem>
@@ -20,7 +19,6 @@ export class MainNavBar extends React.Component {
             </Nav>
           </Container>
         </Navbar>
-      </div>
     );
   }
 }

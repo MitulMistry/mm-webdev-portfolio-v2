@@ -29,6 +29,10 @@ p {
   margin-bottom: .4rem;
 }
 
+.navbar-light {
+  border-bottom: 5px solid #3879D6;
+}
+
 .gradientHeading {
   margin: 2rem 0 1rem 0;
   background: rgb(35,192,231);
@@ -98,7 +102,7 @@ a:focus {
 .jumbotron {
   background-color: black;
   border-radius: 0;
-  border-top: 5px solid #3879D6;
+  /* border-top: 5px solid #3879D6; */
   padding: 2rem 0 1.3rem 0;
   margin: 0;
 }
