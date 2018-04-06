@@ -9,6 +9,15 @@ import imgFrazetta from './img/app_frazetta.jpg';
 import imgArtSmart from './img/app_artsmart.jpg';
 import imgCmd from './img/app_cmd.jpg';
 
+export const profileData = {
+  github: "https://github.com/MitulMistry",
+  linkedin: "https://www.linkedin.com/in/mitulmistry",
+  linkedinUser: "MitulMistry",
+  twitter: "https://twitter.com/mmystic",
+  email: "MitulMistryDev@gmail.com",
+  blog: "http://mitulmistry.github.io/"
+};
+
 export const webApps = [
   {
     title: "Storyplan",
