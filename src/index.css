@@ -29,6 +29,23 @@ p {
   margin-bottom: .4rem;
 }
 
+a {
+  color: #07A9DB;
+  transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+}
+
+a:hover {
+  color: #0782A8;
+  text-decoration: none;
+}
+
+/* a:focus {
+  color: #8C2327;
+} */
+
 .navbar-light {
   border-bottom: 5px solid #3879D6;
 }
@@ -108,18 +125,6 @@ img {
   border: 1px solid #ddd;
 }
 
-a {
-  color: #07A9DB;
-}
-
-a:hover {
-  color: #0782A8;
-}
-
-a:focus {
-  /*color: #8C2327;*/
-}
-
 .btn-light {
   background-color: white;
   border: 1px #3879D6 solid;
@@ -182,10 +187,6 @@ a:focus {
   font-size: 1.25em;
   margin: 0 1rem;
   color: white;
-  transition: color 0.1s linear;
-  -o-transition: color 0.1s linear;
-  -moz-transition: color 0.1s linear;
-  -webkit-transition: color 0.1s linear;
 }
 
 .jumbo-social-bar a:hover {
