@@ -58,11 +58,7 @@ p {
 
 @media (max-width: 576px) {
   .navbar-social {
-    visibility: hidden;
-  }
-
-  .navbar-light .navbar-nav.navbar-social .nav-link {
-    padding: 0 .5rem;
+    display: none;
   }
 }
 
@@ -76,7 +72,7 @@ a.anchor {
 
 @media (max-width: 576px) {
   a.anchor {
-    top: -150px;
+    top: -170px;
   }
 }
 
