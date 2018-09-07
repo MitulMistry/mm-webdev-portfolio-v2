@@ -25,14 +25,14 @@ export class MainPage extends React.Component {
 
           <a className="anchor" id="portfolio"></a>
           <GradientHeading text="Web Applications" />
-          <FullAppsContainer apps={webApps} />          
+          <FullAppsContainer apps={webApps} />
+
+          <GradientHeading text="Other Applications" />
+          <FullAppsContainer apps={otherApps} />
         
           <GradientHeading text="Web Design" />
           <HalfAppsContainer apps={webDesigns} />
           
-          <GradientHeading text="Other Applications" />
-          <FullAppsContainer apps={otherApps} />
-
           <a className="anchor" id="contact"></a>
           <GradientHeading text="Contact" />
           <Contact />
