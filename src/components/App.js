@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Switch, Route } from 'react-router-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { createBrowserHistory }  from 'history';
 import { MainPage } from './MainPage';
 import ReactGA from 'react-ga';
 import { gaTrackingID } from '../data';
