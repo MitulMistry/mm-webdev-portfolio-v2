@@ -3,7 +3,9 @@ import { Router, Switch, Route } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 import { MainPage } from './MainPage';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-6842596-2'); //Unique Google Analytics tracking number
+import { gaTrackingID } from '../data';
+
+ReactGA.initialize(gaTrackingID);
 
 const history = createBrowserHistory();
 

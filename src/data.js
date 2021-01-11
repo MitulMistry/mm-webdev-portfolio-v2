@@ -9,11 +9,13 @@ import imgFrazetta from './img/app_frazetta.jpg';
 import imgArtSmart from './img/app_artsmart.jpg';
 import imgCmd from './img/app_cmd.jpg';
 
+export const gaTrackingID = 'UA-6842596-2'; //Unique Google Analytics tracking number
+
 export const profileData = {
   github: "https://github.com/MitulMistry",
   linkedin: "https://www.linkedin.com/in/mitulmistry",
   linkedinUser: "MitulMistry",
-  twitter: "https://twitter.com/mmystic",
+  twitter: "https://twitter.com/Jackal_MM",
   email: "MitulMistryDev@gmail.com",
   blog: "http://mitulmistry.github.io/"
 };
@@ -42,8 +44,8 @@ export const webApps = [
     bullets: [
       "Created single-page AngularJS front end and integrated with Rails",
       "Developed a Rails JSON API back end using ActiveModel Serializers",
-      "Used Bower to manage front end dependencies",
-      "Implemented Paperclip gem and integrated with AngularJS to handle image uploading, along with S3 for production",
+      "Used Webpacker to manage front end dependencies",
+      "Implemented Active Storage and integrated with AngularJS to handle image uploading, along with AWS S3 for production",
       "Set up filtering based on associated tags for images"
     ],
     url: "https://angular-sketchbook.herokuapp.com/",
@@ -90,7 +92,7 @@ export const webApps = [
     image: imgPostIt,
     description: "A Rails/jQuery app to make and sort notes",
     bullets: [
-      "Integrated jQuery into Rails templates via the asset pipeline",
+      "Integrated jQuery into Rails templates via Webpacker",
       "Leveraged jQuery to make AJAX calls to load, create, and modify notes without page reloads",
       "Set up a Rails JSON API to communicate with jQuery via AJAX"
     ],
