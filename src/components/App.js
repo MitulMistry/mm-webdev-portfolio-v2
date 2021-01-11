@@ -15,7 +15,7 @@ history.listen((location, action) => { //fire Google Analytics on route change
 });
 
 class App extends Component {
-  componentWillMount() { //fire Google Analytics when page first loads
+  componentDidMount() { //fire Google Analytics when page first loads
     ReactGA.set({ page: window.location.pathname });
     ReactGA.pageview(window.location.pathname);
   }
