@@ -16,9 +16,9 @@ export class Header extends React.Component {
                 <img src={imgPortrait} className="img-fluid rounded-circle" alt="Portrait" />
               </Col>
               <Col>
-                <h1>Mitul Mistry</h1>
-                <h2>Full Stack Web Developer</h2>
-                <p>I'm a web developer with experience in Rails, React, and AngularJS</p>
+                <h1>{profileData.name}</h1>
+                <h2>{profileData.title}</h2>
+                <p>{profileData.description}</p>
               </Col>
             </Row>          
           </Container>

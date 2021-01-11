@@ -12,6 +12,9 @@ import imgCmd from './img/app_cmd.jpg';
 export const gaTrackingID = 'UA-6842596-2'; //Unique Google Analytics tracking number
 
 export const profileData = {
+  name: "Mitul Mistry",
+  title: "Full Stack Web Developer",
+  description: "I'm a web developer with experience in Rails, React, and AngularJS",
   github: "https://github.com/MitulMistry",
   linkedin: "https://www.linkedin.com/in/mitulmistry",
   linkedinUser: "MitulMistry",
@@ -19,6 +22,15 @@ export const profileData = {
   email: "MitulMistryDev@gmail.com",
   blog: "http://mitulmistry.github.io/"
 };
+
+export const techSkillsData = {
+  "Languages": "Ruby, JavaScript, HTML/CSS, Sass",
+  "Frameworks": "Ruby on Rails, React, AngularJS",
+  "Databases": "PostgreSQL, SQLite",
+  "Tools": "jQuery, ActiveRecord, Git, Github, Bootstrap, Heroku, Webpack",
+  "Concepts": "Object-oriented programming, AJAX, RESTful architecture/APIs",
+  "Software": "Linux, Photoshop, Illustrator"
+}
 
 export const webApps = [
   {

@@ -1,15 +1,17 @@
 import React from 'react';
+import { techSkillsData } from '../data';
 
 export class TechnicalSkills extends React.Component {
   render() {
+    var total =[];
+
+    for (const header in techSkillsData) {
+      total.push(<p key={header.toString()}><strong>{header}:</strong> {techSkillsData[header]}</p>);
+    }
+
     return (
-      <div>        
-        <p><strong>Languages:</strong> Ruby, JavaScript, HTML/CSS, Sass</p>
-        <p><strong>Frameworks:</strong> Ruby on Rails, React, AngularJS</p>
-        <p><strong>Databases:</strong> SQLite</p>
-        <p><strong>Tools:</strong> jQuery, ActiveRecord, Git, Github, Bootstrap, Heroku, Webpack</p>
-        <p><strong>Concepts:</strong> Object-oriented programming, AJAX, RESTful architecture / APIs</p>
-        <p><strong>Software:</strong> Linux, Photoshop, Illustrator</p>
+      <div>
+        {total}
       </div>
     );
   }
