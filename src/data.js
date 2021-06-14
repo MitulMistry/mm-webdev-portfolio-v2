@@ -2,6 +2,7 @@ import imgStoryplan from './img/app_storyplan.jpg';
 import imgSketchbook from './img/app_sketchbook.jpg';
 import imgSteamNavigator from './img/app_steam_navigator.jpg';
 import imgGoogleNews from './img/app_google_news.jpg';
+import imgPaperTrader from './img/app_paper_trader.jpg';
 import imgTheValley from './img/app_the_valley.jpg';
 import imgPostIt from './img/app_post_it.jpg';
 import imgSimpleBlog from './img/app_simple_blog.jpg';
@@ -24,8 +25,8 @@ export const profileData = {
 };
 
 export const techSkillsData = {
-  "Languages": "Ruby, JavaScript, HTML/CSS, Sass",
-  "Frameworks": "Ruby on Rails, React, AngularJS",
+  "Languages": "Ruby, Python, JavaScript, HTML/CSS/Sass, C",
+  "Frameworks": "Ruby on Rails, React, AngularJS, Flask",
   "Databases": "PostgreSQL, SQLite",
   "Tools": "jQuery, ActiveRecord, Git, Github, Bootstrap, Heroku, Webpack",
   "Concepts": "Object-oriented programming, AJAX, RESTful architecture/APIs",
@@ -69,7 +70,7 @@ export const webApps = [
     description: "A front end AngularJS web application for viewing the Steam Store",
     bullets: [
       "Designed and developed a responsive single-page AngularJS front end",
-      "Developed a Node + Express back end proxy to interact with external API to circumvent cross-origin (CORS) denial",
+      "Developed a Node + Express back end proxy to interact with external API",
       "Implemented AngularJS Material for layout and styling"
     ],
     url: "https://steam-navigator.herokuapp.com/",
@@ -86,6 +87,18 @@ export const webApps = [
     ],
     url: "https://react-google-news.herokuapp.com/",
     github: "https://github.com/MitulMistry/react-google-news"
+  },
+  {
+    title: "Paper Trader",
+    image: imgPaperTrader,
+    description: "A React front end application using the Google News API",
+    bullets: [
+      "Created a Python web application to practice trading stocks",
+      "Developed a Flask back end to manage user authentication, track transactions, calculate gains and losses, and store data using PostgreSQL",
+      "Leveraged external APIs including IEX to get real time stock data as well as News API to provide related news articles for stock research"
+    ],
+    url: "https://flask-paper-trader.herokuapp.com/",
+    github: "https://github.com/MitulMistry/paper-trader"
   },
   {
     title: "The Valley",
