@@ -5,7 +5,6 @@ import imgGoogleNews from './img/app_google_news.jpg';
 import imgPaperTrader from './img/app_paper_trader.jpg';
 import imgTheValley from './img/app_the_valley.jpg';
 import imgPostIt from './img/app_post_it.jpg';
-import imgSimpleBlog from './img/app_simple_blog.jpg';
 import imgFrazetta from './img/app_frazetta.jpg';
 import imgArtSmart from './img/app_artsmart.jpg';
 import imgCmd from './img/app_cmd.jpg';
@@ -123,16 +122,6 @@ export const webApps = [
     ],
     url: "https://rails-post-it.herokuapp.com/",
     github: "https://github.com/MitulMistry/post-it"
-  },
-  {
-    title: "Simple Blog",
-    image: imgSimpleBlog,
-    description: "A blog application built with Sinatra",
-    bullets: [
-      "Set up custom sessions and authentication using bcrypt",
-      "Incorporated ActiveRecord and set up database schema with SQLite"
-    ],
-    github: "https://github.com/MitulMistry/sinatra-simple-blog"
   }
 ];
 
