@@ -3,6 +3,7 @@ import imgSketchbook from './img/app_sketchbook.jpg';
 import imgSteamNavigator from './img/app_steam_navigator.jpg';
 import imgGoogleNews from './img/app_google_news.jpg';
 import imgPaperTrader from './img/app_paper_trader.jpg';
+import imgJournalTool from './img/app_journal_tool.jpg';
 import imgTheValley from './img/app_the_valley.jpg';
 import imgPostIt from './img/app_post_it.jpg';
 import imgFrazetta from './img/app_frazetta.jpg';
@@ -25,7 +26,7 @@ export const profileData = {
 
 export const techSkillsData = {
   "Languages": "Ruby, Python, JavaScript, HTML/CSS/Sass, C",
-  "Frameworks": "Ruby on Rails, React, AngularJS, Flask",
+  "Frameworks": "Ruby on Rails, React, AngularJS, Django, Flask",
   "Databases": "PostgreSQL, SQLite",
   "Tools": "jQuery, ActiveRecord, Git, Github, Bootstrap, Heroku, Webpack",
   "Concepts": "Object-oriented programming, AJAX, RESTful architecture/APIs",
@@ -90,7 +91,7 @@ export const webApps = [
   {
     title: "Paper Trader",
     image: imgPaperTrader,
-    description: "A React front end application using the Google News API",
+    description: "A Flask application using the IEX Cloud API",
     bullets: [
       "Created a Python web application to practice trading stocks",
       "Developed a Flask back end to manage user authentication, track transactions, calculate gains and losses, and store data using PostgreSQL",
@@ -98,6 +99,18 @@ export const webApps = [
     ],
     url: "https://flask-paper-trader.herokuapp.com/",
     github: "https://github.com/MitulMistry/paper-trader"
+  },
+  {
+    title: "Journal Tool",
+    image: imgJournalTool,
+    description: "A Django application for making journal entries and tracking mood",
+    bullets: [
+      "Built a web application in Python to keep track of events, activities, and cognitive distortions, and leverage associations between them",
+      "Used a combination of Django templates, JavaScript, and internal APIs to create web pages with asynchronous functionality",
+      "Developed a Django back end to manage user authentication, process models, and calculate statistics for journal entries and associated models"
+    ],
+    url: "https://journal-tool.herokuapp.com/",
+    github: "https://github.com/MitulMistry/journal-tool"
   },
   {
     title: "The Valley",
